@@ -1,5 +1,4 @@
 FILEPATH = "todos.txt"
-
 def get_todos(filepath = FILEPATH):
     #this is a  doc-strings
     """Read a text file and return the list of to-do items'"""
