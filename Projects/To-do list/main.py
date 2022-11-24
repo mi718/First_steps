@@ -89,7 +89,7 @@ def loop():
 
             todos = get_todos()
 
-            print(f"YOUR TO-LIST HAS {len(todos)} ITEMS")
+            print(f"YOUR TO-LIST HAS {len(todos) +1} ITEMS")
         elif user_action.startswith("clear"):
 
             todos = get_todos()
